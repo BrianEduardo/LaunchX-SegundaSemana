@@ -1,0 +1,65 @@
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+form {
+    border: 1px solid #b0b1d9;
+    padding: 20px 100px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-pedidos {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.titulo-armalo {
+    text-align: center;
+}
+
+.datos-personales {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.label-input label {
+    display: block;
+}
+
+.label-input input {
+    width: 300px;
+}
+
+.label-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.pasteles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pastel-personalizado {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-enviar {
+    align-self: center;
+    width: 100px;
+    height: 50px;
+    background-color: #b0b1d9;
+    color: #8687a5;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 50px 0 20px 0;
+}
